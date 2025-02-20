@@ -18,7 +18,7 @@ body {
 
 /* css-2 active isimli bir class için arkaplan'ı siyah yapın, yazılar beyaz olsun */
 .active {
-  background-color: black;
+  background: black;
   color: white;
 }
 
@@ -36,7 +36,7 @@ header {
 /* css-4 headerdaki h2 için metni sola yaslayalım */
 
 header h2 {
-  align-items: flex-start;
+  text-align: left;
 }
 
 /* css-5 headerdaki navigasyon bölümü için flex kullanalım ve flex-item'ların dikeyde ortalayalım. */
@@ -65,11 +65,11 @@ nav a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 80vw;
+  width: 80%;
   aspect-ratio: 4/3;
   margin: 5% auto;
-  text-align: center;
-  background-color: gray;
+  background: gray;
+  align-content: center;
 }
 
 /* **** Projects **** */
@@ -86,7 +86,7 @@ nav a {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: 30px;
+  row-gap: 30px;
   text-align: center;
 }
 
@@ -104,7 +104,7 @@ arkaplanı gray olsun
 .projects-item img {
   width: 100%;
   aspect-ratio: 1/1;
-  background-color: gray;
+  background: gray;
 }
 
 /* **** footer **** */
