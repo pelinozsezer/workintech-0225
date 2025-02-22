@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en, tr">
+  <!-- HEAD -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Browser Appearance -->
+    <title>WitFlix - Your fave!</title>
+    <link rel="icon" type="image/png" href="browser-logo.png" sizes="64x64" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="reset.css" />
+
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+
+    <!-- SEO -->
+    <meta
+      name="description"
+      content="WitFlix - Your favorite streaming service!"
+    />
+    <meta name="keywords" content="movies, streaming, WitFlix" />
+    <meta name="author" content="Pelin Özsezer" />
+  </head>
+
+  <!-- BODY -->
+  <body>
+    <header>
+      <!-- HEADER LEFT -->
+      <div class="header-left directing">
+        <a href="index.html">
+          <h1>WitFlix</h1>
+        </a>
+      </div>
+
+      <!-- HEADER CENTER -->
+      <div class="header-center">
+        <nav>
+          <a class="directing" href="topic1.html">Topic 1</a>
+          <a class="directing" href="topic2.html">Topic 2</a>
+          <a class="directing" href="topic3.html">Topic 3</a>
+          <a class="directing" href="topic4.html">Topic 4</a>
+        </nav>
+      </div>
+
+      <!-- HEADER RIGHT -->
+      <div class="header-right">
+        <!-- search bar -->
+        <form action="search_results.html" method="GET">
+          <input type="text" name="q" placeholder="Search..." />
+          <button class="search-bar directing" type="submit">🔍</button>
+        </form>
+
+        <!-- notification button -->
+        <button class="notification-btn directing">
+          <i class="fa-solid fa-bell"></i>
+        </button>
+
+        <!-- user profile -->
+        <a href="user-profile.html" class="user-profile-link directing">
+          <img class="user-profile-picture" src="user-profile-picture.jpg" />
+        </a>
+      </div>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+      <!-- section: selected-movie -->
+      <section class="selected-movie">
+        <h1 class="movie-name">MOVIE NAME</h1>
+        <div class="movie-details">
+          <p class="movie-imdb-rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <span style="font-weight: bold">8.0 </span>
+            IMDB
+          </p>
+          <p class="age-restriction">+16</p>
+          <p class="duration">2 hr 21 min</p>
+        </div>
+        <p class="movie-info">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+          facilisi, sed ornare lectus ac, dictum ligula. Curabitur vehicula ex
+          nec odio interdum, a vestibulum eros malesuada. Aenean fermentum justo
+          ut ligula vestibulum, at interdum turpis scelerisque. Fusce tincidunt
+          erat at lorem feugiat, ac facilisis lacus pharetra. Proin quis felis
+          vel nulla ultricies varius. Vestibulum eget libero eu eros consequat
+          tincidunt. Mauris sed nunc id dolor hendrerit fermentum in non lacus.
+        </p>
+        <div class="movie-properties">
+          <p class="movie-property">Starring:</p>
+          <p class="movie-property-values">
+            Lorem ipsum, Lorem ipsum, Lorem ipsum
+          </p>
+          <p class="movie-property">Genre:</p>
+          <p class="movie-property-values">Lorem, Ipsum, Color</p>
+          <p class="movie-property">Tags:</p>
+          <p class="movie-property-values">Lorem, Ipsum, Color</p>
+        </div>
+        <button class="play-now directing">
+          <i class="fa-solid fa-play"></i> Play Now
+        </button>
+      </section>
+
+      <!-- section: popular-movies -->
+       <h3>Popular Movies</h3>
+      <section class="popular-movies">
+        <div class="popular-movie-1">
+          <h2 class="movie-name">MOVIE NAME</h2>
+
+          <div class="movie-details">
+            <p class="age-restriction">+16</p>
+            <p class="duration">2 hr 21 min</p>
+          </div>
+
+          <button class="play-now directing">
+            <i class="fa-solid fa-play"></i> Play Now
+          </button>
+        </div>
+
+        <div class="popular-movie-2">
+          <h2 class="movie-name">MOVIE NAME</h2>
+
+          <div class="movie-details">
+            <p class="age-restriction">+16</p>
+            <p class="duration">2 hr 21 min</p>
+          </div>
+
+          <button class="play-now directing">
+            <i class="fa-solid fa-play"></i> Play Now
+          </button>
+        </div>
+
+        <div class="popular-movie-3">
+          <h2 class="movie-name">MOVIE NAME</h2>
+
+          <div class="movie-details">
+            <p class="age-restriction">+16</p>
+            <p class="duration">2 hr 21 min</p>
+          </div>
+
+          <button class="play-now directing">
+            <i class="fa-solid fa-play"></i> Play Now
+          </button>
+        </div>
+      </section>
+
+      <!-- section: recommended -->
+      <h3>Recommended for You</h3>
+      <section class="recommended-movies">
+        <div class="recommended-movie-1">
+          <h2 class="movie-name">MOVIE NAME</h2>
+
+          <div class="movie-details">
+            <p class="age-restriction">+16</p>
+            <p class="duration">2 hr 21 min</p>
+          </div>
+
+          <button class="play-now directing">
+            <i class="fa-solid fa-play"></i> Play Now
+          </button>
+        </div>
+
+        <div class="recommended-movie-2">
+          <h2 class="movie-name">MOVIE NAME</h2>
+
+          <div class="movie-details">
+            <p class="age-restriction">+16</p>
+            <p class="duration">2 hr 21 min</p>
+          </div>
+
+          <button class="play-now directing">
+            <i class="fa-solid fa-play"></i> Play Now
+          </button>
+        </div>
+
+        <div class="recommended-movie-3">
+          <h2 class="movie-name">MOVIE NAME</h2>
+
+          <div class="movie-details">
+            <p class="age-restriction">+16</p>
+            <p class="duration">2 hr 21 min</p>
+          </div>
+
+          <button class="play-now directing">
+            <i class="fa-solid fa-play"></i> Play Now
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-left-side">
+        <!-- footer left side -->
+        <div class="footer-left-list">
+          <a class="directing" href="terms-use.html">Terms of Use</a>
+          <a class="directing" href="privacy-policy.html">Privacy Policy</a>
+          <a class="directing" href="faq.html">FAQ</a>
+          <a class="directing" href="watch-list.html">Watch List</a>
+        </div>
+        <p class="footer-info">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec
+          lectus id turpis aliquet vehicula eget vel libero.
+        </p>
+      </div>
+
+      <div class="footer-right-side">
+        <!-- footer right side -->
+        <div class="social-media">
+          <p>Follow Us</p>
+          <nav>
+            <a class="directing" href="https://www.facebook.com">
+              <img src="facebook-icon.png" />
+            </a>
+            <a class="directing" href="https://x.com">
+              <img src="x-icon.png" />
+            </a>
+            <a class="directing" href="https://youtube.com">
+              <img src="youtube-icon.png" />
+            </a>
+          </nav>
+        </div>
+
+        <div class="apps">
+          <p>Apps</p>
+          <a class="directing" href="https://www.apple.com/app-store">
+            <img src="app-store-icon.png" />
+          </a>
+          <a class="directing" href="https://play.google.com">
+            <img src="google-play-icon.png" />
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

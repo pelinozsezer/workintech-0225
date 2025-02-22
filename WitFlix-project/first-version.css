@@ -1,0 +1,122 @@
+header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* .header-left, .header-center, .header-right {
+    flex-grow: 1;
+} */
+
+.header-left a {
+  color: red;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.header-center a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  /* gap: 10rem; */
+  margin-right: 1rem;
+  padding: 0.5rem 1rem;
+  align-items: center;
+}
+
+/* NEON HOVER EFEKTİ */
+.header-center a:hover {
+  color: #0044cc; /* DAHA KOYU MAVİ Neon Rengi */
+  background-color: rgba(0, 68, 204, 0.2); /* Hafif koyu mavi neon parlaklığı */
+  text-shadow: 0 0 10px #0044cc, 0 0 20px #0044cc, 0 0 40px #002266,
+    0 0 80px #001144, 0 0 160px #000a33; /* DAHA KOYU MAVİ Neon ışık efekti */
+  box-shadow: 0 0 10px #0044cc, 0 0 30px #002266, 0 0 60px #001144,
+    0 0 120px #000a33; /* Butonun etrafına güçlü, koyu mavi bir parlama eklendi */
+  transform: scale(1.1); /* Buton hafif büyür, güçlü bir his verir */
+  transition: all 0.1s ease-out; /* ANİ GEÇİŞ */
+  border-radius: 10%;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 0.5vw;
+  width: 30vw;
+  align-content: flex-end;
+  margin-left: auto;
+  justify-content: flex-end;
+}
+
+.header-right form {
+  display: flex;
+  align-items: center;
+  gap: 0; /* Input ve buton arasındaki boşluk */
+  width: 40%;
+  margin-right: -1.1vw;
+}
+
+.header-right form input {
+  padding: 0.5vh 0.8vw;
+  border-radius: 0.5vw;
+  border: 0.1vw solid #ccc;
+  outline: none;
+  transition: all 0.2s ease-in-out;
+  font-size: 1vw;
+  width: 6vw;
+}
+
+
+
+.notification-btn {
+  margin-left: -1.1vw;
+}
+
+.header-right button {
+  background-color: white;
+  /* background-color: #0044cc; */
+  color: black;
+  padding: 0.75vw 0.75vw;
+  /* border-radius: 0.5vw; */
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+  font-size: 1vw;
+  height: 1vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-right .user-profile-picture {
+  width: 2vw;
+  height: 2vw;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+}
+
+.header-right .user-profile-picture:hover {
+  box-shadow: 0 0 1vw rgba(0, 68, 204, 0.7), 0 0 2vw rgba(0, 68, 204, 0.5);
+  border: 0.1vw solid rgba(0, 68, 204, 0.8);
+  cursor: pointer;
+}
+
+.header-right button:hover {
+  background-color: #002266;
+  color: white;
+  box-shadow: 0 0 0.8vw rgba(0, 68, 204, 0.7);
+  border-radius: 50vw;
+}
+
+.header-right form input:focus {
+  border-color: #0044cc;
+  box-shadow: 0 0 0.3vw rgba(0, 68, 204, 0.5);
+}
+
+.header-left:hover {
+  cursor: pointer;
+}
+
+
+any syntax error?
