@@ -1,0 +1,256 @@
+header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1vw 2.5% 2.5% 2.5%;
+}
+
+header div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-left a {
+  font-weight: bolder;
+  color: red;
+  text-decoration: none;
+}
+
+.header-center nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-center nav a {
+  color: black;
+  text-decoration: none;
+  margin: 0 1vw;
+}
+
+.header-right {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-right {
+  gap: 0.4vw;
+}
+
+.header-right .search-bar {
+  background: none;
+  border: none;
+  position: absolute;
+  transform: translateX(-130%) translateY(10%); /* Birden fazla dönüşümü birleştirin */
+  cursor: pointer;
+}
+
+.header-right .notification-btn {
+  background-color: white;
+  border: none;
+
+  transform: scale(1.5);
+}
+
+.user-profile-link img {
+  width: 2vw;
+  height: 2vw;
+  object-fit: cover;
+  border-radius: 20vw;
+}
+
+.selected-movie {
+  border: 2px solid black;
+  margin: 1% 2.5% 2.5% 2.5%;
+  padding: 10vw 40vw 10vw 2.5vw;
+}
+
+.movie-name {
+  font-weight: 900;
+  font-size: 3vw;
+}
+
+.movie-details {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.fa-star {
+  color: red;
+}
+
+.selected-movie .age-restriction {
+  border: 0.1vw solid black;
+  border-radius: 0.5vw;
+  padding: 0.1vw 0.2vw 0.1vw 0.2vw;
+  margin: 0 1vw 0 1vw;
+}
+
+.selected-movie .duration {
+  font-weight: bold;
+}
+
+.movie-property {
+  font-weight: bold;
+  color: red;
+}
+
+.movie-properties {
+  display: grid;
+  grid-template-columns: 5vw 10vw;
+  grid-template-rows: repeat(3, auto);
+  white-space: nowrap; /* important */
+}
+
+.movie-property {
+  font-weight: bold; /* Başlıkları vurgula */
+}
+
+main h3 {
+  margin-left: 2.5%;
+  margin-bottom: 0;
+  padding-left: 0;
+  padding-bottom: 0;
+}
+
+.selected-movie .play-now {
+  background-color: red;
+  padding: 0.5vw 2vw 0.5vw 0.5vw;
+  color: white;
+  border: 0px;
+  border-radius: 0.35vw;
+  margin-top: 1vw;
+
+  transform: scale(1.5);
+  transform-origin: left;
+}
+
+.selected-movie .play-now i {
+  padding-right: 0.75vw;
+  transform: scale(1.5);
+  transform-origin: left;
+}
+
+.popular-movies,
+.recommended-movies {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 1% 2.5% 2.5% 2.5%;
+}
+
+.popular-movies-header,
+.popular-movies-list,
+.recommended-movies-header,
+.recommended-movies-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  width: 100%;
+  /* border: none !important; */
+}
+
+.popular-movies-list,
+.recommended-movies-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  gap: 2%;
+  width: 100%;
+  padding: 1% 0;
+  box-sizing: border-box;
+}
+
+.popular-movies-list > div,
+.recommended-movies-list > div {
+  flex: 0 0 32%; /* Her kart %32 genişlikte, 3 tane ekrana tam sığsın */
+
+  background: white;
+  border: 2px solid black;
+  padding: 5% 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  scroll-snap-align: start; /* Kaydırma hizalaması */
+  box-sizing: border-box; /* Padding ve border’ı dahil et */
+}
+
+.popular-movies-header *,
+.recommended-movies-header * {
+  padding: 0;
+  margin: 0;
+}
+
+.view-all {
+  text-decoration: none;
+  color: black;
+}
+
+/* .popular-movies > div,
+.recommended-movies > div {
+    border: 2px solid black;
+    padding: 3vw 20vw 3vw 0.5vw;
+} */
+
+h2.movie-name {
+  font-size: 1.75vw;
+  padding-bottom: 2%;
+}
+
+.popular-movies .age-restriction,
+.recommended-movies .age-restriction {
+  border: 0.1vw solid black;
+  border-radius: 0.5vw;
+  padding: 0.1vw 0.2vw 0.1vw 0.2vw;
+  margin: 0 1vw 0 0;
+}
+
+.popular-movies .duration,
+.recommended-movies .duration {
+  font-weight: bold;
+}
+
+.popular-movies .play-now,
+.recommended-movies .play-now {
+  background-color: red;
+  padding: 0.5vw 2vw 0.5vw 0.5vw;
+  color: white;
+  border: 0px;
+  border-radius: 0.35vw;
+  margin-top: 0.5vw;
+}
+
+.popular-movies .play-now i,
+.recommended-movies .play-now i {
+  padding-right: 0.25vw;
+}
+
+
+
+
+
+
+
