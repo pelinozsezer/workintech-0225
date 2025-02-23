@@ -25,10 +25,10 @@ Below is the result of my implementation:
 ## What I Learned
 - Structuring a webpage using HTML.
 - Styling elements using CSS.
-- Replicating layouts and designs from reference images.
+- Replicating layouts and designs based on reference images using precise HTML and CSS techniques.
 
 ## Future Improvements
 - Improve the responsiveness of the design.
-- Enhance CSS styling for a more polished look.
+- Enhance CSS styling for a more professional and visually appealing look.
 - Implement JavaScript for interactive features.
 
