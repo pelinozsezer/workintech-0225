@@ -3,13 +3,10 @@ footer {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
- 
 
   align-items: flex-start;
   margin: 1vw 2.5% 2.5% 2.5%;
 }
-
-
 
 .footer-left-side {
   flex: 3;
@@ -19,11 +16,7 @@ footer {
   justify-content: flex-start;
   gap: 3%;
   margin-bottom: 0.5%;
-
-
-
 }
-
 
 .footer-left-side nav a {
   text-decoration: none;
@@ -34,16 +27,6 @@ footer {
   font-weight: bold;
 }
 
-
-
-
-
-
-
-
-
-
-
 .footer-right-side {
   flex: 1;
   display: flex;
@@ -51,7 +34,6 @@ footer {
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
-  
 }
 
 .footer-right-side .social-media {
@@ -61,10 +43,7 @@ footer {
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: flex-start;
-
 }
-
-
 
 .footer-right-side .social-media nav {
   display: flex;
@@ -74,26 +53,17 @@ footer {
   align-items: flex-start;
 }
 
-
-
 .footer-right-side .social-media nav a {
-
   width: 2vw;
   height: 2vw;
-
 }
 
 .footer-right-side .social-media nav a img {
-  width: 100%; 
+  width: 100%;
   height: 100%;
-  object-fit: cover; 
+  object-fit: cover;
   border-radius: 50%; /* icons' shaped are different so used circle border */
-  
 }
-
-
-
-
 
 .footer-right-side .apps {
   display: flex;
@@ -102,15 +72,9 @@ footer {
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: flex-start;
-  
-margin-top: 4%;
 
-
-
-
+  margin-top: 0;
 }
-
-
 
 .footer-right-side .apps nav {
   display: flex;
@@ -118,7 +82,7 @@ margin-top: 4%;
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center; /* Daha iyi hizalama için center kullanıldı */
-  gap: 2.5%
+  gap: 2.5%;
 }
 
 .footer-right-side .apps nav a {
@@ -127,11 +91,10 @@ margin-top: 4%;
   display: flex;
   align-items: center;
   justify-content: center;
- 
 }
 
 .footer-right-side .apps nav a img {
-  width: 100%; 
+  width: 100%;
   height: 100%;
   object-fit: contain; /* Resmin tamamını göstermesi için contain kullanıldı */
   border-radius: 5%;
