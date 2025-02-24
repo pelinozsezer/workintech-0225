@@ -10,13 +10,13 @@ The goal was to recreate a webpage that closely resembles the reference design b
 Here is how the webpage was intended to look:
 
 
-<img src="https://github.com/pelinozsezer/workintech-0225/blob/main/WitFlix-project/reference-design.png" alt="reference design" width="auto" height="600" />
+<img src="https://github.com/pelinozsezer/workintech-0225/blob/main/WitFlix-project/reference-design.png" alt="reference design" width="600" height="600" />
 
 
 ### My Version
 Below is the result of my implementation:
 
-<img src="https://github.com/pelinozsezer/workintech-0225/blob/main/WitFlix-project/my-design.png" alt="my design" width="auto" height="600" />
+<img src="https://github.com/pelinozsezer/workintech-0225/blob/main/WitFlix-project/my-design.png" alt="my design" width="600" height="600" />
 
 ## Technologies Used
 - HTML
