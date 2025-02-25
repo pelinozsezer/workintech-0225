@@ -51,7 +51,7 @@ header div {
   background: none;
   border: none;
   position: absolute;
-  transform: translateX(-130%) translateY(10%);
+  transform: translateX(-130%) translateY(20%);
   cursor: pointer;
 }
 
