@@ -9,14 +9,12 @@ The goal was to recreate a webpage that closely resembles the reference design b
 ### Reference Design
 Here is how the webpage was intended to look:
 
-
-<img src="[https://github.com/pelinozsezer/workintech-0225/blob/main/WitFlix-project/reference-design.png](https://github.com/pelinozsezer/workintech-0225/blob/main/WitFlix-project/assets/reference-design.png)" alt="reference design" width="600" height="600" />
-
+<img src="https://github.com/pelinozsezer/workintech-0225/blob/main/WitFlix-project/assets/reference-design.png" alt="reference design" width="600" height="600" />
 
 ### My Version
 Below is the result of my implementation:
 
-<img src="[https://github.com/pelinozsezer/workintech-0225/blob/main/WitFlix-project/my-design.png](https://github.com/pelinozsezer/workintech-0225/blob/main/WitFlix-project/assets/my-design.png)" alt="my design" width="600" height="600" />
+<img src="https://github.com/pelinozsezer/workintech-0225/blob/main/WitFlix-project/assets/my-design.png" alt="my design" width="600" height="600" />
 
 ## Technologies Used
 - HTML
@@ -31,4 +29,3 @@ Below is the result of my implementation:
 - Improve the responsiveness of the design.
 - Enhance CSS styling for a more professional and visually appealing look.
 - Implement JavaScript for interactive features.
-
